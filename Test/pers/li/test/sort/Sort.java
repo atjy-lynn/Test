@@ -58,7 +58,7 @@ public class Sort {
             arr[index] = arr[i];
             arr[i] = temp;
 
-            //如若不想定义三房变量实现换位则可使用以下代码：
+            //如若不想定义三方变量实现换位则可使用以下代码：
 			/*
 			arr[index] += arr[i];
 			arr[i] = arr[index] - arr[i];
